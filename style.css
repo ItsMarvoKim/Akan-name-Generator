@@ -27,3 +27,12 @@ h4{
     text-transform: uppercase;
     color: #2a0dac;
 }
+.fs{
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 15px;
+}
+.fs1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+    font-size: 14px;
+}
+
