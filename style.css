@@ -19,7 +19,7 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: #010f1d;
 }
 h4{
     font-family: 'Cambria', 'Cochin', Georgia, Times;
@@ -28,11 +28,16 @@ h4{
     color: #2a0dac;
 }
 .fs{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
     font-family: Impact, 'Arial Narrow Bold';
     font-size: 15px;
 }
 .fs1{
+    color: rgb(39, 10, 10);
+    font-weight: 300;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
     font-size: 14px;
 }
+
 
