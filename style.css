@@ -10,20 +10,20 @@ body{
     color: #343a40;
 }
 h1{
-    font-family: 'Saira Extra Condensed',serif;
-    font-weight: 700;
+    font-family: Verdana, 'Geneva', sans-serif;
+    font-weight: 900;
     text-transform: uppercase;
-    color: #343a40;
+    color: #061b30;
 }
 h2{
-    font-family: 'Saira Extra Condensed',serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
     font-weight: 700;
     text-transform: uppercase;
     color: #343a40;
 }
 h4{
-    font-family: 'Saira Extra Condensed',serif;
+    font-family: 'Cambria', 'Cochin', Georgia, Times;
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: #2a0dac;
 }
