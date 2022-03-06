@@ -9,6 +9,15 @@ body{
     padding-left: 54px;
     color: #343a40;
 }
+.container{
+    padding: 50px 10;
+
+}
+span{
+    color: #55124c;
+    
+}
+
 h1{
     font-family: Verdana, 'Geneva', sans-serif;
     font-weight: 900;
@@ -41,11 +50,23 @@ h4{
 }
 
 .col-md-6{
-    text-align: center;
+    text-align: justify;
+    position: center;
 }
+.
 
 /*form section*/
-.container{
-    position: relative;
+.container1{
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Haettenschweiler', sans-serif;
+    font-weight: 400;
 }
+.control-label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
 
