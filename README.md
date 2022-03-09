@@ -3,7 +3,7 @@
 ###### By MARVIN KIMATHI
 ## Description
 Here in contains a fully functional Akan name generating website based on an individuals' gender and date of birth
-The website can be viewed via the following [link](https://itsmarvokim.github.io/Portfolio-Landing-Page/)
+The website can be viewed via the following [link](https://itsmarvokim.github.io/Week2-Web-Application/)
 ## Setup/Installation Requirements
 - Clone this repository to your desktop by navigating to the desktop Terminal and enter "git clone" followed by the link to this repository.
 - Once the directory is cloned to your destop, open the directory in Visual Studio Code by entering the command "code ."- in the Terminal.
