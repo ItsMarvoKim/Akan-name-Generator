@@ -72,12 +72,20 @@
                 </div>
                 <h5 class="Form-header">Select gender</h5>
                 <div class="form-group">
-                    <input type="radio" class="form-check-input" id="male" name="male">
-                    <label class="class-form-check-label"for="male">Male</label>  
-                </div>
-                <div class="form-group">
-                    <input type="radio" class="form-check-input" id="female" name="female">
-                    <label class="class-form-check-label"for="female">Female</label>  
+                    <select name="gender" id="gender">
+                        <option selected hidden>
+                            Select gender
+                        </option>
+                        
+                        <option value="male">
+                            male
+                        </option>
+                        <option value="female">
+                            female                       
+                        </option>
+                        
+
+                    </select>
                 </div>
                 <div class="button">
                     <input class="btn btn-primary" type="submit" value="Submit">
