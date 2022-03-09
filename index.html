@@ -8,7 +8,7 @@
     <meta name="author" content="Marvin Kimathi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Akan Name-Generator</title>
 </head>
 
@@ -34,7 +34,8 @@
 
         <div class="row">
             <div class="Icon">
-                <img src="Page icons/maleicon.png" alt="MaleFigure" style="width:100%;"><h5>Male</h5>
+                <img src="Page icons/maleicon.png" alt="MaleFigure" style="width:100%;">
+                <h5>Male</h5>
                 <ul class="names">
                     <li>Sunday: Kwasi</li>
                                 <li>Monday: Kwadwo</li>
@@ -46,7 +47,8 @@
                 </ul>
             </div>
             <div class="Icon">
-                <img src="Page icons/femaleicon.png" alt="FemaleFigure" style=" width: 100%;"><h5>Female</h5>
+                <img src="Page icons/femaleicon.png" alt="FemaleFigure" style=" width: 100%;">
+                <h5>Female</h5>
                 <ul class="names">
                     <li>Sunday: Akosua</li>
                     <li>Monday: Adwoa</li>
@@ -60,12 +62,27 @@
         </div>
     </div>
 
-    <Section class="Form-group"><h7>Check Your Akan Name</h7>
+    <Section class="Form">
         <div class="Form-container">
-            <form action="Formsetup">
-                <label for="DOB">Date of Birth:</label><br>
-                <input type="date" id="DOB" name="DOB" value=""><br><br>
-                <input type="submit" value="Submit">
+            <h6>Check Your Akan Name</h6>
+            <form id="Formsetup">
+                <div class="form-group">
+                    <label for="DOB">Date of Birth:</label>
+                    <input type="date" class="form-control" id="DOB" name="DOB">  
+                </div>
+                <h5 class="Form-header">Select gender</h5>
+                <div class="form-group">
+                    <input type="radio" class="form-check-input" id="male" name="male">
+                    <label class="class-form-check-label"for="male">Male</label>  
+                </div>
+                <div class="form-group">
+                    <input type="radio" class="form-check-input" id="female" name="female">
+                    <label class="class-form-check-label"for="female">Female</label>  
+                </div>
+                <div class="button">
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                </div>
+                
             </form> 
         </div>
     </Section>
@@ -74,7 +91,9 @@
 
 
 
+    <script src="node.js">
 
+    </script>
 </body>
 
 <style>
@@ -133,14 +152,7 @@ h6{
     flex-direction: row;
     height: 500px;
 }
-/* Form Section*/
 
-.Form-container{
-    height: 150px;
-    width: 400px;
-    background-color: rgb(247, 247, 247);
-    text-align: center;
-}
 
 
 

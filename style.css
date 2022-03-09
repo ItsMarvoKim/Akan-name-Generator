@@ -1,0 +1,23 @@
+.Form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    
+    
+}
+.Form-container{
+    padding: 20px;
+    background-color: #fff;
+    width: 600px;
+}
+.form-group{
+    margin-top: 20px;
+}
+.Form-header{
+    margin-top: 20px;
+}
+.button{
+    margin-top: 20px;
+}
